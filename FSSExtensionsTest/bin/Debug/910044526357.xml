@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-16"?>
+<GetPrivateLNDataResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileOperationsLnUserGetPrivateLNDataOut xmlns="http://www.fss.ru/integration/types/eln/ins/v01">
+    <requestId xmlns="http://www.fss.ru/integration/types/eln/v01">GETLNINS_5900342689_2021_11_29_00259</requestId>
+    <status xmlns="http://www.fss.ru/integration/types/eln/v01">1</status>
+    <data>
+      <outRowset>
+        <responseRow>
+          <snils>05036823233</snils>
+          <surname>БАРАНЦЕВА</surname>
+          <name>МАРИЯ</name>
+          <patronymic>ВАДИМОВНА</patronymic>
+          <lnCode>910044526357</lnCode>
+          <primaryFlag>true</primaryFlag>
+          <duplicateFlag>false</duplicateFlag>
+          <lnDate>2020-11-13</lnDate>
+          <lpuName>ГБУЗ ПК ГКП 5</lpuName>
+          <lpuAddress>ПЕРМЬ ГУСАРОВА УЛ 7</lpuAddress>
+          <lpuOgrn>1175958044074</lpuOgrn>
+          <birthday>1976-06-23</birthday>
+          <gender>1</gender>
+          <reason1>01</reason1>
+          <treatPeriods>
+            <treatFullPeriod>
+              <treatPeriod xmlns="http://www.fss.ru/integration/types/eln/v01">
+                <treatDt1>2020-11-13</treatDt1>
+                <treatDt2>2020-11-17</treatDt2>
+                <treatDoctorRole>ВРАЧ-ТЕРАПЕВТ</treatDoctorRole>
+                <treatDoctor>ЧЕРЕМИСИНА ЕВ</treatDoctor>
+              </treatPeriod>
+            </treatFullPeriod>
+            <treatFullPeriod>
+              <treatPeriod xmlns="http://www.fss.ru/integration/types/eln/v01">
+                <treatDt1>2020-11-18</treatDt1>
+                <treatDt2>2020-11-23</treatDt2>
+                <treatDoctorRole>ВРАЧ-ТЕРАПЕВТ УЧАСТКОВЫЙ</treatDoctorRole>
+                <treatDoctor>ЗИМАСОВА РФ</treatDoctor>
+              </treatPeriod>
+            </treatFullPeriod>
+            <treatFullPeriod>
+              <treatChairman xmlns="http://www.fss.ru/integration/types/eln/v01">АЗАНОВА ТВ</treatChairman>
+              <treatChairmanRole xmlns="http://www.fss.ru/integration/types/eln/v01">ПРЕД ВК</treatChairmanRole>
+              <treatPeriod xmlns="http://www.fss.ru/integration/types/eln/v01">
+                <treatDt1>2020-11-24</treatDt1>
+                <treatDt2>2020-12-04</treatDt2>
+                <treatDoctorRole>ВРАЧ-ТЕРАПЕВТ УЧАСТКОВЫЙ</treatDoctorRole>
+                <treatDoctor>СУНДЫРЕВА ИЮ</treatDoctor>
+              </treatPeriod>
+            </treatFullPeriod>
+          </treatPeriods>
+          <lnResult>
+            <returnDateLpu xmlns="http://www.fss.ru/integration/types/eln/v01">2020-12-05</returnDateLpu>
+          </lnResult>
+          <lnState>030</lnState>
+        </responseRow>
+      </outRowset>
+    </data>
+  </fileOperationsLnUserGetPrivateLNDataOut>
+</GetPrivateLNDataResponse>
